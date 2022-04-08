@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>E-commerce website</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body class="py-4 px-3">
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<h1>Men's Clothes</h1>
+
+		<p id="test-para"></p>
+
+		<div id="app" class="px-2 py-2">
+			<div v-for="(product, index) in products" :key="index">
+			 <div v-bind:style="`height: 300px; background: grey; background-image:url(${product.images[1]}); background-size: cover;`">
+				
+			</div>
+			<h1>{{ product.name }}</h1>
+			<h1>$ {{product.price}}</h1> <br>
+
+			<button class="py-2 px-2 bg-green-200">Add to cart</button>
+			</div>
+			
+		</div>
+
+		
+		
+		<script src="" async defer></script>
+		<script src="https://unpkg.com/vue@3"></script>
+
+		<script>
+			Vue.createApp({
+			  data() {
+				return {
+				  message: 'Hello Vue!',
+				  products: [
+				  {
+					"name": "MACEOO SHIRT | GALILEO SQUARE MICRO ORANGE",
+					"price": 138,
+					"sizes": ["S","M","L","XL", "2XL"],
+					"images": ["https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_1_Main_1800x1800.jpg?v=1647746109", "https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_4_1800x1800.jpg?v=1647746108",
+					"https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_10_1800x1800.jpg?v=1647746109"],
+					"attributes": ["Spring / Summer 2022,", "American Slim Fit", "Italian Fabrics from 100% Cotton", "Imported", "Ship from Las Vegas, USA", "Machine Washable, Dry Cleaned preferred", "Lay Flat to Dry, Don't Tumble Dry"]
+				  } ,
+				  {
+					"name": "MACEOO SHIRT ",
+					"price": 158,
+					"sizes": ["S","M","L","XL", "2XL"],
+					"images": ["https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_1_Main_1800x1800.jpg?v=1647746109", "https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_4_1800x1800.jpg?v=1647746108",
+					"https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_10_1800x1800.jpg?v=1647746109"],
+					"attributes": ["Spring / Summer 2022,", "American Slim Fit", "Italian Fabrics from 100% Cotton", "Imported", "Ship from Las Vegas, USA", "Machine Washable, Dry Cleaned preferred", "Lay Flat to Dry, Don't Tumble Dry"]
+				  }  
+				],
+				}
+			  }
+			}).mount('#app')
+		  </script>
+	</body>
+</html>
+
+
+
+let arr=["t","e","s","t"];
+alert(arr.slice(1,3));
+alert(arr.slice(-2));
+
+
+let user = {
+name:"John",
+surname:"Smith",
+
+}
+
+user.name ="Pete";
+
+delete user.name
+
+let salaries = {
+	John: 100,
+	Ann: 160,
+	Pete: 130
+
+	function salaries(john,Ann, Pete){
+		return
+	this.john +this.Ann +this.Pete
+	};
+	salaries(john,Ann, Pete)
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Meet
+New meeting
+Join a meeting
+Hangouts
+
+1 of 2,507
+E-commerce data
+Inbox
+
+Ayomide Akinola
+Attachments
+19:30 (1 hour ago)
+to me
+
+Find attachment biko
+Attachments area
+  [
+    {
+      "name": "MACEOO SHIRT | GALILEO SQUARE MICRO ORANGE",
+      "price": 138,
+      "sizes": ["S","M","L","XL", "2XL"],
+      "images": ["https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_1_Main_1800x1800.jpg?v=1647746109", "https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_4_1800x1800.jpg?v=1647746108",
+      "https://cdn.shopify.com/s/files/1/0115/5332/products/GalileoSquareMicroOrange_202201010063_10_1800x1800.jpg?v=1647746109"],
+      "attributes": ["Spring / Summer 2022,", "American Slim Fit", "Italian Fabrics from 100% Cotton", "Imported", "Ship from Las Vegas, USA", "Machine Washable, Dry Cleaned preferred", "Lay Flat to Dry, Don't Tumble Dry"]
+    },
+    {
+      "name": "AU NOIR DRESSY STRETCH PANT - BERETTA CHARCHOAL",
+      "price": 127.20,
+      "sizes": ["S","M","L","XL", "2XL"],
+      "images": ["https://cdn.shopify.com/s/files/1/0115/5332/products/BERETTA_charcoal_1598_120x.jpg?v=1599684105", "https://cdn.shopify.com/s/files/1/0115/5332/products/BERETTA_charcoal_1596_360x.jpg?v=1599684105",
+      "https://cdn.shopify.com/s/files/1/0115/5332/products/BERETTA_charcoal_1552_360x.jpg?v=1599684105"],
+      "attributes": ["Au Noir 2019 Collection", "Standard length of 34 for all sizes", "Slim Fit cut", "Stretched Material", "Ship from Montreal Canada", "Imported"]
+    },
+    {
+      "name": "PAUL PARKMAN MEN'S SIDE ZIPPER LEATHER BOOTS LIGHT BROWN (12455-CML)",
+      "price": 650.00,
+      "sizes": ["S","M","L","XL","2XL","3XL"],
+      "images": ["https://cdn.shopify.com/s/files/1/0115/5332/products/MUS_1241-copy_360x.jpg?v=1582054733",
+      "https://cdn.shopify.com/s/files/1/0115/5332/products/MUS_1243-copy_360x.jpg?v=1582054733", "https://cdn.shopify.com/s/files/1/0115/5332/products/MUS_1237-copy_120x.jpg?v=1582054733", "https://cdn.shopify.com/s/files/1/0115/5332/products/MUS_1251-copy_120x.jpg?v=1582054733"],
+      "attributes": ["Light brown hand-painted calfskin upper", "Leather sole with a transparent rubber layer", "Decorative side zippers", "Natural leather lining and inner sole", "The product is a lace-up boot style so the zipper is for decorative purposes only. Laces should be tied/untied to put on and take off"]
+    },
+    {
+      "name": "AU NOIR SHORT-SLEEVE POLO | PRESCOTT BLACK",
+      "price": 111.20,
+      "sizes": ["S","M","L","XL","2XL","3XL"],
+      "images": ["https://cdn.shopify.com/s/files/1/0115/5332/products/PRESCOTT_black_0066_1800x1800.jpg?v=1622085157",
+      "https://cdn.shopify.com/s/files/1/0115/5332/products/PRESCOTT_black_00661_360x.jpg?v=1622085157"],
+      "attributes": ["All Over Print Italian Fabrics", "Spring / Summer 2021", "Semi Fitted", "Imported", "Ship from Montreal, USA", "Machine Washable, Dry Cleaned preferred", "Lay Flat to Dry, Don't Tumble Dry"]
+    },
+    {
+      "name": "AU NOIR DRESSY STRETCH PANT - MAGNUM BEIGE",
+      "price": 127.20,
+      "sizes": ["S","M","L","XL","2XL","3XL"],
+      "images": ["https://cdn.shopify.com/s/files/1/0115/5332/products/MAGNUM_beige_1622_120x.jpg?v=1599684108",
+      "https://cdn.shopify.com/s/files/1/0115/5332/products/MAGNUM_beige_1620_360x.jpg?v=1599684108", "https://cdn.shopify.com/s/files/1/0115/5332/products/MAGNUM_beige_1635_360x.jpg?v=1599684108"],
+      "attributes": ["Au Noir 2019 Collection", "Standard length of 34 for all sizes", "Slim Fit cut", "Stretched Material", "Ship from Montreal Canada", "Imported"]
+    },
+    {
+      "name": "PAUL PARKMAN MEN'S LOAFERS TURQUOISE (ID#093-TRQ)",
+      "price": 450.00,
+      "sizes": ["S","M","L","XL","2XL","3XL"],
+      "images": ["https://cdn.shopify.com/s/files/1/0115/5332/products/MUS_2520_360x.jpg?v=1582054371",
+      "https://cdn.shopify.com/s/files/1/0115/5332/products/MUS_2518_360x.jpg?v=1582054371", "https://cdn.shopify.com/s/files/1/0115/5332/products/MUS_2524_120x.jpg?v=1582054371", "https://cdn.shopify.com/s/files/1/0115/5332/products/MUS_2530_120x.jpg?v=1582054371"],
+      "attributes": ["Turquoise hand-painted calfskin upper", "Blue burnished leather sole", "Bordeaux leather lining and inner sole", "Slip-on style men's loafer shoes"]
+    }
+  ]
+
+
+
+
+
+
+
